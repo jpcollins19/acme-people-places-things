@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Acme People, Places & Things</title>
+  </head>
+  <body>
+    <h1>Acme People, Places & Things</h1>
+    <div>
+      <ul>
+        ${people.map(person => `
+        <li>${person.name}</li>
+        `)}
+      </ul>
+    </div>
+  </body>
+</html>

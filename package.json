@@ -1,0 +1,31 @@
+{
+  "name": "acme-people-places-things",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpcollins19/acme-people-places-things.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpcollins19/acme-people-places-things/issues"
+  },
+  "homepage": "https://github.com/jpcollins19/acme-people-places-things#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "method": "^2.0.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "override": "^0.0.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.9.0"
+  }
+}
